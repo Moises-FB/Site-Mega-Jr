@@ -2,7 +2,13 @@
 #C83C23  -  Laranja
 #3D014E  -  Roxo*/
 
+@font-face {
+  font-family: "Bebas";
+  src: url("Bebas-Regular.ttf") format("opentype");
+}
+
 body {
+  font-family: "Bebas";
   position: relative;
   margin: 0;
   padding: 0;
@@ -16,7 +22,7 @@ nav {
 }
 
 nav > a {
-  font-size: 2vw;
+  font-size: 1.8vw;
   margin-right: 2vw;
   color: white;
   text-decoration: none;
