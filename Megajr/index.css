@@ -14,6 +14,11 @@ body {
   padding: 0;
 }
 
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -37,16 +42,8 @@ nav > a:hover {
   margin: 0;
 }
 
-.principal {
-  top: 0;
-  width: 100%;
-  height: auto;
-  min-height: 100vh;
-  background-image: url(background.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-}
 #quem-somos {
+  position: relative;
   display: block;
   top: 0;
   width: 100%;
@@ -82,6 +79,16 @@ nav > a:hover {
   background-color: brown;
 }
 
+.principal {
+  top: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .logo {
   margin-top: 5%;
   margin-left: 35%;
@@ -111,4 +118,58 @@ nav > a:hover {
 }
 .fale-conosco:hover {
   transform: scale(1.1);
+}
+.titulo {
+  background-color: #3d014e;
+  display: flex;
+  width: 50%;
+}
+.titulo > p {
+  padding: 0;
+  margin: 0;
+  margin-left: 1vw;
+  color: white;
+  font-size: 1.8vw;
+}
+.logo-quem-somos {
+  float: left;
+  height: auto;
+  width: 30%;
+  margin: 5% 20% 5% 10%;
+}
+.texto-quem-somos {
+  color: #3d014e;
+  text-align: center;
+  margin-top: 10%;
+  margin-right: 10%;
+  font-size: 2vw;
+}
+.blocos {
+  display: flex;
+  text-align: center;
+  position: absolute;
+  color: white;
+  font-size: 1.1vw;
+  justify-content: space-around;
+  bottom: 10vh;
+  height: 30vh;
+  width: 100vw;
+}
+.missao {
+  background-color: #3d014e;
+  border-radius: 4vh;
+  width: 12vw;
+  padding: 3vh;
+}
+.visao {
+  background-color: #3d014e;
+  border-radius: 4vh;
+  width: 12vw;
+  padding: 3vh;
+}
+.valores {
+  background-color: #3d014e;
+  border-radius: 40px;
+  width: 12vw;
+  padding: 3vh;
 }
