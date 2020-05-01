@@ -1,0 +1,108 @@
+/*Cores da empresa:
+#C83C23  -  Laranja
+#3D014E  -  Roxo*/
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent;
+  width: 100%;
+}
+
+nav > a {
+  font-size: 2vw;
+  margin-right: 2vw;
+  color: white;
+  text-decoration: none;
+  text-transform: none;
+}
+
+nav > a:hover {
+  color: #c83c23;
+}
+
+#princial #quemsomos #servicos #portifolio #contato {
+  margin: 0;
+}
+
+.principal {
+  top: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#quem-somos {
+  display: block;
+  top: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: white;
+  overflow: hidden;
+}
+#servicos {
+  display: block;
+  top: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: black;
+  overflow: hidden;
+}
+#portifolio {
+  display: block;
+  top: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: red;
+}
+#contato {
+  display: block;
+  z-index: 4;
+  top: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: brown;
+}
+
+.logo {
+  margin-top: 5%;
+  margin-left: 35%;
+  display: block;
+  align-content: center;
+  height: auto;
+  width: 30%;
+}
+
+.fale-conosco {
+  display: block;
+  position: relative;
+  text-align: center;
+  font-size: 1.4vw;
+  margin-top: 2%;
+  margin-left: 42%;
+  margin-right: 42.5%;
+  background-color: #c83c23;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  border-radius: 4vh;
+  outline: transparent;
+  border-color: transparent;
+  transition: 0.4s;
+  text-decoration: none;
+  color: white;
+}
+.fale-conosco:hover {
+  transform: scale(1.1);
+}
