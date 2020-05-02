@@ -52,7 +52,7 @@ nav > a:hover {
 }
 #principal {
   z-index: 0;
-  background-image: url(/Assets/images/background.jpg);
+  background-image: url(./assets/images/background.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
